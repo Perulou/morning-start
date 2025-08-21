@@ -210,7 +210,7 @@
 						"min": "40px"
 					},
 					"name": "Extra Extra Large",
-					"size": "16px",
+					"size": "56px",
 					"slug": "custom-1"
 				},
 				{
@@ -219,7 +219,7 @@
 						"min": "28px"
 					},
 					"name": "Extra Large",
-					"size": "16px",
+					"size": "32px",
 					"slug": "custom-2"
 				},
 				{
@@ -228,7 +228,7 @@
 						"min": "20px"
 					},
 					"name": "Large",
-					"size": "16px",
+					"size": "24px",
 					"slug": "custom-3"
 				},
 				{
@@ -237,7 +237,7 @@
 						"min": "18px"
 					},
 					"name": "Semi Large",
-					"size": "16px",
+					"size": "20px",
 					"slug": "custom-4"
 				},
 				{
