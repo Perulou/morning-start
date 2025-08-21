@@ -1,9 +1,117 @@
 {
 	"settings": {
 		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "White",
+					"slug": "custom-white"
+				},
+				{
+					"color": "#f6f6f6",
+					"name": "Gray More Light",
+					"slug": "custom-gray-more-light"
+				},
+				{
+					"color": "#e8e8e8",
+					"name": "Gray Light",
+					"slug": "custom-gray-light"
+				},
+				{
+					"color": "#dcdcdc",
+					"name": "Gray",
+					"slug": "custom-gray"
+				},
+				{
+					"color": "#969696",
+					"name": "Gray Dark",
+					"slug": "custom-gray-dark"
+				},
+				{
+					"color": "#3f3d56",
+					"name": "Black",
+					"slug": "custom-black"
+				},
+				{
+					"color": "#fffacf",
+					"name": "Yellow Light",
+					"slug": "custom-yellow-light"
+				},
+				{
+					"color": "#ffed8c",
+					"name": "Yellow",
+					"slug": "custom-yellow"
+				},
+				{
+					"color": "#ffc8c7",
+					"name": "Pink Light",
+					"slug": "custom-pink-light"
+				},
+				{
+					"color": "#f1acac",
+					"name": "Pink",
+					"slug": "custom-pink"
+				},
+				{
+					"color": "#ee6284",
+					"name": "Red",
+					"slug": "custom-red"
+				},
+				{
+					"color": "#e02d58",
+					"name": "Red Dark",
+					"slug": "custom-red-dark"
+				},
+				{
+					"color": "#ffe2c0",
+					"name": "Orange Light",
+					"slug": "custom-orange-light"
+				},
+				{
+					"color": "#ff8616",
+					"name": "Orange",
+					"slug": "custom-orange"
+				},
+				{
+					"color": "#a5df97",
+					"name": "Green Light",
+					"slug": "custom-green-light"
+				},
+				{
+					"color": "#4cd0a1",
+					"name": "Green",
+					"slug": "custom-green"
+				},
+				{
+					"color": "#8dc8e8",
+					"name": "Blue Light",
+					"slug": "custom-blue-light"
+				},
+				{
+					"color": "#5b9cc0",
+					"name": "Blue",
+					"slug": "custom-blue"
+				},
+				{
+					"color": "#b386d7",
+					"name": "Purple",
+					"slug": "custom-purple"
+				}
+			]
+		},
 		"layout": {
 			"contentSize": "620px",
 			"wideSize": "1000px"
+		},
+		"shadow": {
+			"presets": [
+				{
+					"name": "Shadow",
+					"shadow": "0px 0px 8px 0 #3f3d561f",
+					"slug": "shadow-1"
+				}
+			]
 		},
 		"spacing": {
 			"units": [
@@ -93,6 +201,59 @@
 					"fontFamily": "\"Barlow Semi Condensed\", sans-serif",
 					"name": "Barlow Semi Condensed",
 					"slug": "barlow-semi-condensed"
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": {
+						"max": "56px",
+						"min": "40px"
+					},
+					"name": "Extra Extra Large",
+					"size": "16px",
+					"slug": "custom-1"
+				},
+				{
+					"fluid": {
+						"max": "32px",
+						"min": "28px"
+					},
+					"name": "Extra Large",
+					"size": "16px",
+					"slug": "custom-2"
+				},
+				{
+					"fluid": {
+						"max": "24px",
+						"min": "20px"
+					},
+					"name": "Large",
+					"size": "16px",
+					"slug": "custom-3"
+				},
+				{
+					"fluid": {
+						"max": "20px",
+						"min": "18px"
+					},
+					"name": "Semi Large",
+					"size": "16px",
+					"slug": "custom-4"
+				},
+				{
+					"name": "Medium",
+					"size": "16px",
+					"slug": "custom-5"
+				},
+				{
+					"name": "Small",
+					"size": "13px",
+					"slug": "custom-6"
+				},
+				{
+					"name": "Extra Small",
+					"size": "11px",
+					"slug": "custom-7"
 				}
 			]
 		},
