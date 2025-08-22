@@ -339,13 +339,13 @@
 			"h1": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--custom-1)",
-					"lineHeight":"1.4"
+					"lineHeight": "1.4"
 				}
 			},
 			"h2": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--custom-2)",
-					"lineHeight":"1.4"
+					"lineHeight": "1.4"
 				}
 			},
 			"h3": {
@@ -389,7 +389,13 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "0px"
+			"blockGap": "0px",
+			"padding": {
+				"bottom": "0px",
+				"left": "var(--wp--preset--spacing--24)",
+				"right": "var(--wp--preset--spacing--24)",
+				"top": "0px"
+			}
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--noto-sans-jp)",
