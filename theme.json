@@ -409,7 +409,7 @@
 				},
 
 					"border": {
-						"color":"var(--wp--preset--color--custom-red)"
+						"color": "var(--wp--preset--color--custom-red)"
 					},
 				"typography": {
 					"fontStyle": "normal",
