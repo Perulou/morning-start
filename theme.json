@@ -403,26 +403,26 @@
 		},
 		"elements": {
 			"button": {
+				":hover": {
+					"border": {
+						"color": "var(--wp--preset--color--custom-red-dark)"
+					},
+					"color": {
+						"background": "var(--wp--preset--color--custom-red-dark)"
+					}
+				},
+				"border": {
+					"color": "var(--wp--preset--color--custom-red)"
+				},
 				"color": {
 					"background": "var(--wp--preset--color--custom-red)",
 					"text": "var(--wp--preset--color--custom-white)"
 				},
-
-					"border": {
-						"color": "var(--wp--preset--color--custom-red)"
-					},
 				"typography": {
 					"fontStyle": "normal",
 					"fontWeight": "700"
-				},
-				":hover":{
-					"color": {
-						"background": "var(--wp--preset--color--custom-red-dark)"
-					},
-					"border": {
-						"color":"var(--wp--preset--color--custom-red-dark)"
-					}
-				}			},
+				}
+			},
 			"h1": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--custom-1)",
