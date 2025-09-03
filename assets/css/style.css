@@ -130,3 +130,32 @@
   border-radius: 8px;
   white-space: nowrap;
 }
+
+.wp-block-categories-list{
+  display: grid;
+  gap: var(--wp--preset--spacing--12);
+  margin: 0;
+  padding: 0;
+}
+
+.wp-block-categories-list .cat-item {
+  list-style: none;
+  padding-left: 18px;
+  position: relative;
+}
+
+.wp-block-categories-list .cat-item::before{
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background:  var(--wp--preset--color--custom-red);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.wp-block-categories-list .cat-item  a {
+  text-decoration: none;
+}
