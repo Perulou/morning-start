@@ -68,7 +68,7 @@
   border-radius: 4px;
   color: var(--wp--preset--color--custom-white);
   background-color: var(--wp--preset--color--custom-blue);
-  font-size: var(--wp--preset--font-size--small);
+  /* font-size: var(--wp--preset--font-size--small); */
   text-decoration: none;
 }
 
@@ -115,4 +115,18 @@
      color: var(--wp--preset--color--custom-white);
      font-weight: 700;
   }
+}
+
+.wp-block-search__input{
+  border-color: var(--wp--preset--color--custom-gray-more-light);
+  border-width: 2px;
+  background: var(--wp--preset--color--custom-gray-more-light);
+  padding: var(--wp--preset--spacing--12);
+  border-radius: 8px;
+}
+
+:root .wp-block-search__button{
+  padding: var(--wp--preset--spacing--12) var(--wp--preset--spacing--24);
+  border-radius: 8px;
+  white-space: nowrap;
 }
