@@ -1,0 +1,29 @@
+.wp-block-heading{
+  
+}
+
+h2.wp-block-heading{
+  display: flex;
+  align-items: center;
+  gap: var(--wp--preset--spacing--16);
+  padding: var(--wp--preset--spacing--20) 0;
+  border-bottom: 4px solid var(--wp--preset--color--custom-red);
+  font-size: var(--wp--preset--font-size--x-large);
+
+  &:before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    background: url(../image/block/heading/heading-sun.png) no-repeat center center /contain;
+    flex-shrink: 0;
+
+  }
+}
+.wp-block-list{
+
+}
+
+.wp-block-quote{
+
+}
+
