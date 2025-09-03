@@ -1,5 +1,11 @@
 <?php
 function my_block_assets(){
+
+  global $post;
+  if ( $post && $post->post_type === 'post') {
+    wp_enqueue_style( 'post', get_template_directory_uri() . '/assets/css/post.css', array(), filemtime( get_theme_file_path('/assets/css/post.css')), 'all');
+  }
+  
   wp_enqueue_style( 'morning-start', get_template_directory_uri() . '/assets/css/style.css', array(), filemtime( get_theme_file_path('/assets/css/style.css')), 'all');
 }
 add_action( 'enqueue_block_assets', 'my_block_assets');
@@ -12,7 +18,7 @@ function add_default_arrow_button(){
       'label' => '矢印付き(Default)'
     )
   );
-}
+} 
 add_action( 'init', 'add_default_arrow_button' );
 
 
